@@ -12,7 +12,7 @@ The code starts from the main.c from where other functions are called.
 * `cmds` folder contain the .c and .h files to execute all the various commands.
 
 
-##Assumption:
+## Assumption:
 * The history will display at max 20 commands.
 * Maximum length of command that can be entered at one time is 1000.
 * Maximum length of path for a file or directory is 1000.
@@ -21,7 +21,7 @@ The code starts from the main.c from where other functions are called.
 * The file for saving history will be created in the same directory from which shell was invoked.
 * The baywatch command has a default interval of 1 second after which it prints again.
 
-##Features:
+## Features:
 * `baywatch`: A modified version of the bash command watch, that works for three specific commands: <br>
 
 1. <b>interrupt:</b> Prints the number of times the CPUs have been interrupted by the keyboard controller (i8042 with IRQ 1)
@@ -130,5 +130,5 @@ ps
 ```bash
 gedit &
 ```
-##To run the shell:
+## To run the shell:
 Run ```make``` and then ```./Matrix```. This will run the shell directly.
