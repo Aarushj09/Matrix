@@ -1,6 +1,6 @@
-#Matrix
+# Matrix
 
-##Division of Code:
+## Division of Code:
 
 The entire code is divided into modular files. The "utils" directory has helper functions and "cmds" has all the codes to run different commands.
 The code starts from the main.c from where other functions are called.
